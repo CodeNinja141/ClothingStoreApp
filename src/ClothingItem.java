@@ -13,10 +13,11 @@ class ClothingItem {
         return price;
     }
 
-    @Override
+
     public String toString() {
-        return String.format("%s - Size: %s, Price: $%.2f", name, size, price);
+        return name + " - Size: " + size + ", Price: $" + price;
     }
+    // This method belongs to object class, We are using it to return a string values of clothingItem Object.
 
     public String getName() {
         return name;

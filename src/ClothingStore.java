@@ -16,7 +16,7 @@ class ClothingStore {
         inventory.add(new ClothingItem("Dress", 45.99, "S"));
         inventory.add(new ClothingItem("Dress", 45.99, "M"));
         inventory.add(new ClothingItem("Dress", 45.99, "L"));
-        // Add more items as needed
+        // Add more item If you need !
     }
 
     public ClothingItem getItem(String itemName, String size) {
