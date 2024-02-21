@@ -22,7 +22,7 @@ public class Main {
                 System.out.print("Enter size (S, M, L, XL): ");
                 String size = scanner.nextLine().toUpperCase();
                 System.out.print("Enter quantity: ");
-                int quantity = scanner.nextInt();
+                int quantity = scanner.nextInt();ni
                 scanner.nextLine(); // Consume newline character
                 switch (choice.toLowerCase()) {
                     case "shirt":
